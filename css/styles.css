@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c62828;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  flex-wrap: wrap; /* mobile-friendly */
+}
+
+.logo-image {
+  width: 50px;
+  height: auto;
+  border-radius: 1px;
+  margin-right: 2rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  margin-left: 1.5rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  padding: 4rem 2rem;
+  background-color: #ffebee;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-content {
+  display: flex;
+  align-items: left;
+  width: 90%;
+  flex-wrap: wrap; /* mobile-friendly */
+}
+
+.hero-image {
+  width: 200px;
+  height: auto;
+  border-radius: 12px;
+  margin-right: 4rem;
+}
+
+.hero-text {
+  width: 90%px;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #b71c1c;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+}
+
+.card a {
+  text-decoration: none;
+  color: inherit; /* Inherit the color from the parent (usually black or white) */
+}
+
+/* Optional: Add hover effect to link text */
+.card a:hover {
+  color: #c62828; /* Change to your brand color if you like */
+}
+
+/* Make card "lift" slightly when hovered */
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Ensure cards transition smoothly */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1rem;
+  flex: 1;
+  max-width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+footer {
+  background: #c62828;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
